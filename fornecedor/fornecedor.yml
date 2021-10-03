@@ -6,7 +6,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
-    url: 'jdbc:mysql://localhost:3307/fornecedor'
+    url: jdbc:mysql://localhost:3307/fornecedor'
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
